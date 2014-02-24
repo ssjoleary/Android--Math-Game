@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/gamescreen">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/newhighscore_content" android:id="@+id/newhighscore_content"
+              android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+              android:layout_marginTop="95dp"/>
+    <TextView style="@android:style/TextAppearance.Large" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/newhighscore_title" android:singleLine="false"
+              android:background="@android:color/transparent" android:text="@string/newhighscore_title"
+              android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+              android:layout_marginTop="38dp"/>
+</RelativeLayout>

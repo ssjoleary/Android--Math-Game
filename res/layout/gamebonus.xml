@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/gamescreen">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamebonus_title" android:layout_gravity="center"
+            style="@android:style/TextAppearance.Large" android:text="@string/gamebonus_title"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamebonus_equation" android:layout_gravity="center"
+            style="@android:style/TextAppearance.Large" android:phoneNumber="false"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1" android:gravity="bottom">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gamebonus_dragndrop"
+                style="@android:style/TextAppearance.Large" android:text="@string/gamebonus_dragndrop"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageApple" android:background="@drawable/apple" android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1" android:gravity="bottom"
+            android:id="@+id/basketLayout">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageBasket" android:background="@drawable/basket"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamebonus_btn"
+            android:id="@+id/gamebonus_btn" android:layout_gravity="center" android:background="@android:color/transparent"/>
+</LinearLayout>

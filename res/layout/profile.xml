@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/gamescreen"
+              android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_level" android:singleLine="false" android:background="@android:color/transparent"
+            android:text="@string/profile_gamesplayed"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_defaultvalue"
+            android:id="@+id/profile_levelvalue"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_highestscore" android:background="@android:color/transparent"
+            android:text="@string/profile_highestscore"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_defaultvalue"
+            android:id="@+id/profile_hsvalue"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_avgscore" android:background="@android:color/transparent"
+            android:text="@string/profile_avgscore"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_defaultvalue"
+            android:id="@+id/profile_asvalue"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_gamesplayed" android:background="@android:color/transparent"
+            android:phoneNumber="false" android:text="@string/profile_level"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_defaultvalue"
+            android:id="@+id/profile_gpvalue"/>
+    <TextView style="@android:style/TextAppearance.Large" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/profile_xp"
+              android:background="@android:color/transparent" android:phoneNumber="false"
+              android:text="@string/profile_xp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/profile_xpvalue" android:id="@+id/profile_xpvalue"/>
+</LinearLayout>

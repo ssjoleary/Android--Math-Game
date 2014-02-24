@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Game</string>
+
+    <string name="main_play">Play</string>
+    <string name="main_preferences">Preferences</string>
+    <string name="main_profile">Profile</string>
+
+    <string name="profile_gamesplayed">Games Played</string>
+    <string name="profile_level">Level</string>
+    <string name="profile_highestscore">Highest Score</string>
+    <string name="profile_avgscore">Average Score</string>
+    <string name="profile_defaultvalue">0</string>
+    <string name="profile_xp">XP</string>
+    <string name="profile_xpvalue">0</string>
+
+    <string name="gameconfig_difficulty">Difficulty</string>
+    <string name="gameconfig_operators">Operators</string>
+    <string-array name="gameconfig_difficultyspin">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Professional</item>
+    </string-array>
+    <string-array name="gameconfig_operatorspin">
+        <item>Addition +</item>
+        <item>Subtraction -</item>
+    </string-array>
+    <string name="gameconfig_gobtn">Go Calculate!</string>
+
+    <string name="gamefinish_headingpass">Congratulations!</string>
+    <string name="gamefinish_headingfail">Better luck next time...</string>
+    <string name="gamefinish_msgpass">You\'ve cleared the level!</string>
+    <string name="gamefinish_msgfail">Practice makes perfect!</string>
+    <string name="gamefinish_qsright">%1$d / %2$d answered correctly</string>
+    <string name="gamefinish_xpearned">%1$d XP earned</string>
+    <string name="gamefinish_btn">Main Menu</string>
+    <string name="gamefinish_notiftitle">New Highscore!</string>
+    <string name="gamefinish_notiftext">All your hard work has paid off!</string>
+    <string name="gamefinish_notifmsg">Achievement Reached!</string>
+
+    <string name="action_refresh">Replay Game</string>
+    <string name="action_help">Help</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+
+    <string name="preferences_title">Preferences</string>
+    <string name="preferences_soundeffects">Sound Effects</string>
+    <string name="preferences_notifications">Notifications</string>
+    <string name="preferences_resetprofile">Reset Profile</string>
+    <string name="preferences_resetbtn">Clear Profile Data</string>
+
+    <string name="gamebonus_title">Bonus Level!</string>
+    <string name="gamebonus_dragndrop">Drag\'n\'Drop!</string>
+    <string name="gamebonus_btn">Done??</string>
+
+    <string name="newhighscore_title">Congratulations!</string>
+    <string name="newhighscore_content">"You've set a new High Score!\nKeep up the good work!"</string>
+
+    <string name="info_title">"Math Game\nMobile Apps Assignment 2</string>
+    <string name="info_content">"Sam O'Leary\nDNET4\n2013</string>
+
+</resources>

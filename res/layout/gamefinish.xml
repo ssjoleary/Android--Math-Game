@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/gamescreen" android:paddingTop="15dip">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamefinish_heading" android:background="@android:color/transparent" android:layout_gravity="center"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamefinish_msg" android:background="@android:color/transparent" android:layout_gravity="center"
+            style="@android:style/TextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamefinish_qsright"
+            android:id="@+id/gamefinish_qsright" android:layout_gravity="center"
+            android:background="@android:color/transparent" style="@android:style/TextAppearance.Large"/>
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamefinish_xpprogbar"
+            android:indeterminate="false"
+            android:layout_gravity="center"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="0"
+            android:secondaryProgress="0"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamefinish_xpearned"
+            android:id="@+id/gamefinish_xpearned" android:layout_gravity="center"
+            android:background="@android:color/transparent" style="@android:style/TextAppearance.Large"/>
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gamefinish_btn"
+                android:id="@+id/gamefinish_btn" android:background="@android:color/transparent"
+                android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>

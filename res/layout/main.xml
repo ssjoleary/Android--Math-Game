@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/chalkboardblackmenu"
+              android:layout_weight="1">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:gravity="center"
+            android:layout_weight="1">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_play"
+                android:id="@+id/main_play" android:background="@android:color/transparent"
+                android:layout_gravity="center" android:paddingTop="50dip" style="@android:style/TextAppearance.Large"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_options" android:layout_gravity="center"
+                android:background="@android:color/transparent" android:text="@string/main_preferences"
+                style="@android:style/TextAppearance.Large"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_profile" android:layout_gravity="center"
+                android:text="@string/main_profile" android:focusable="false"
+                android:background="@android:color/transparent" style="@android:style/TextAppearance.Large"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="7" android:gravity="bottom|right">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_info"
+                android:background="@drawable/questionmark"
+                android:layout_gravity="bottom|right" android:baselineAlignBottom="false" android:clickable="false"/>
+    </LinearLayout>
+</LinearLayout>
+

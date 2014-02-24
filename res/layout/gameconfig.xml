@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center"
+             android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/tableLayout" android:background="@drawable/gameconfig">
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+        <TextView style="@android:style/TextAppearance.Large" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:text="@string/gameconfig_difficulty"
+                  android:id="@+id/gameconfig_difficulty" android:layout_gravity="center" android:layout_weight="1"/>
+        <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:prompt="@string/gameconfig_difficulty" android:id="@+id/gameconfig_difficultyspin"
+                 android:background="@android:color/transparent" android:spinnerMode="dialog"
+                 android:layout_gravity="center" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+        <TextView style="@android:style/TextAppearance.Large" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:text="@string/gameconfig_operators"
+                  android:id="@+id/gameconfig_operators" android:layout_gravity="center" android:layout_weight="1"/>
+        <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:prompt="@string/gameconfig_operators" android:id="@+id/gameconfig_operatorspin"
+                 android:background="@android:color/transparent" android:spinnerMode="dialog"
+                 android:layout_gravity="center" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center|bottom"
+              android:baselineAligned="false" android:paddingTop="25dip">
+        <Button style="@android:style/TextAppearance.Large" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gameconfig_gobtn"
+                android:id="@+id/gameconfig_gobtn" android:background="@android:color/transparent"/>
+    </TableRow>
+</TableLayout>
